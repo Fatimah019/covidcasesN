@@ -1,5 +1,5 @@
 ## Link to hosted website
-https://covidcases-fatimah.netlify.app
+https://covidcasesbyfatimah.netlify.app/
 
 # Getting Started with Create React App
 
