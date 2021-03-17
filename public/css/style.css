@@ -1,0 +1,100 @@
+*:root {
+  box-sizing: border-box;
+}
+html,
+body {
+  padding: 0px;
+  margin: 0px;
+  height: 100%;
+}
+.container {
+  width: 80%;
+  margin: auto;
+}
+.container-fluid {
+  width: 90%;
+  margin: auto;
+}
+.text-center {
+  text-align: center;
+}
+.justify-content-center {
+  justify-content: center;
+}
+.space-between {
+  justify-content: space-between;
+}
+.space-around {
+  justify-content: space-around;
+}
+.align-center {
+  align-items: center;
+}
+.flex-start {
+  align-items: flex-start;
+}
+.flex {
+  display: flex;
+}
+.flex-col {
+  display: flex;
+  flex-direction: column;
+}
+.no-text-wrap {
+  white-space: nowrap;
+}
+p {
+  font-size: 100%;
+}
+/* h1 {
+  font-size: 45px;
+}
+h2 {
+  font-size: 35px;
+}
+p {
+  font-size: 22px;
+}
+li {
+  list-style-type: none;
+}
+
+
+@media screen and (max-width: 768px) {
+  h1 {
+    font-size: 40px;
+  }
+  h2 {
+    font-size: 30px;
+  }
+  p {
+    font-size: 20;
+  }
+}
+
+@media screen and (max-width: 600px) {
+  h1 {
+    font-size: 30px;
+  }
+  h2 {
+    font-size: 26px;
+  }
+  p {
+    font-size: 18px;
+  }
+}
+
+@media screen and (max-width: 480px) {
+  h1 {
+    font-size: 28px;
+  }
+  h2 {
+    font-size: 23px;
+  }
+  h3 {
+    font-size: 22px;
+  }
+  p {
+    font-size: 16px;
+  }
+} */
