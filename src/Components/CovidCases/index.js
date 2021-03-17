@@ -60,9 +60,29 @@ class CovidCases extends React.Component {
               return (
                 <div className="container-fluid">
                   <h3>{cases.state}</h3>
+                  <div class="cases-list">
+                    <div class="case">
+                      <p className="case-h no-text-wrap">Discharged</p>
+                      <p>{cases.discharged}</p>
+                    </div>
+                    <div class="case">
+                      <p className="case-h no-text-wrap">Death</p>
+                      <p>{cases.death}</p>
+                    </div>
+                    <div class="case">
+                      <p className="case-h no-text-wrap">Confirmed</p>
+                      <p>{cases.confirmedCases}</p>
+                    </div>
+                    <div class="case">
+                      <p className="case-h no-text-wrap">On Admission</p>
+                      <p>{cases.casesOnAdmission}</p>
+                    </div>
+                  </div>
+                  <hr />
+                  {/* <h3>{cases.state}</h3>
                   <div className="flex space-between align-center cases-summary-general">
-                    <div className="text-center cases-summary-2 align-center">
-                      <h4 className="no-text-wrap">Discharged</h4>
+                    <div className="justify-content-center text-center cases-summary">
+                      <h4 className="no-text-wrap">Discharged Cases</h4>
                       <div className="text-center">
                         <p>{cases.discharged}</p>
                       </div>
@@ -86,7 +106,7 @@ class CovidCases extends React.Component {
                       </div>
                     </div>
                   </div>
-                  <hr />
+                  <hr /> */}
                 </div>
               );
             })}

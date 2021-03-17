@@ -47,6 +47,20 @@ h4 {
   font-size: 22px;
   font-weight: 600;
 }
+.cases-list {
+  display: flex;
+  justify-content: space-between;
+}
+.case {
+  text-align: center;
+}
+.case p {
+  font-size: 20px;
+}
+.case .case-h {
+  font-size: 22px;
+  font-weight: 600;
+}
 
 @media screen and (max-width: 768px) {
   .cases-summary-2 {
@@ -61,14 +75,20 @@ h4 {
 }
 
 @media screen and (max-width: 600px) {
-  .cases-summary div,
-  .cases-summary-2 div {
+  .cases-summary div {
     padding-top: 3px;
     padding-bottom: 3px;
   }
   .cases-summary-general {
     display: grid;
     grid-template-columns: repeat(2, minmax(48%, 1fr));
+  }
+  .cases-list {
+    flex-direction: column;
+  }
+  .case {
+    display: flex;
+    justify-content: space-between;
   }
 }
 @media screen and (max-width: 480px) {

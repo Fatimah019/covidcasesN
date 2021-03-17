@@ -44,57 +44,10 @@ body {
   white-space: nowrap;
 }
 p {
-  font-size: 100%;
+  font-size: 20px;
 }
-/* h1 {
-  font-size: 45px;
-}
-h2 {
-  font-size: 35px;
-}
-p {
-  font-size: 22px;
-}
-li {
-  list-style-type: none;
-}
-
-
-@media screen and (max-width: 768px) {
-  h1 {
-    font-size: 40px;
-  }
-  h2 {
-    font-size: 30px;
-  }
-  p {
-    font-size: 20;
-  }
-}
-
-@media screen and (max-width: 600px) {
-  h1 {
-    font-size: 30px;
-  }
-  h2 {
-    font-size: 26px;
-  }
+@media screen and (max-width: 480px) {
   p {
     font-size: 18px;
   }
 }
-
-@media screen and (max-width: 480px) {
-  h1 {
-    font-size: 28px;
-  }
-  h2 {
-    font-size: 23px;
-  }
-  h3 {
-    font-size: 22px;
-  }
-  p {
-    font-size: 16px;
-  }
-} */
